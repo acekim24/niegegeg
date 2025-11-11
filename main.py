@@ -15,7 +15,7 @@ from discord.ext import commands, tasks
 from discord import ui, ButtonStyle, PermissionOverwrite
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "MTQzMDEwMjgzOTc0ODcyMjcyOQ.GR3Yct.tBovaBUeBBU-LTLNQaoUvP4wD_L8aqSaFr0NM0"
 GUILD_ID = os.getenv("GUILD_ID")
 BACKGROUND_IMG_URL = os.getenv("BACKGROUND_IMG_URL", "").strip()
 if not TOKEN:
@@ -1206,4 +1206,5 @@ async def on_ready():
 # ---------------- Run ----------------
 if __name__ == "__main__":
     bot.run(TOKEN)
+
  
