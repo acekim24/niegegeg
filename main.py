@@ -89,6 +89,7 @@ data = load_data()
 licenses = load_licenses()
 
 intents = discord.Intents.all()
+client = discord.Client(intents=intents)
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # trackers
@@ -1208,3 +1209,4 @@ if __name__ == "__main__":
     bot.run(TOKEN)
 
  
+
